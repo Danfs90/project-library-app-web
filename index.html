@@ -3,29 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Brimtop Library</title>
+    <title>Login - Blue Library</title>
     <link rel="stylesheet" href="/src/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="container">
         <div class="left">
-            <img src="example-image.jpg" alt="Library Image">
+            <img src="/img/login-image.jpg" alt="Library Image">
         </div>
         <div class="right">
             <div class="login-form">
                 <div class="logo">
-                    <img src="logo.png" alt="Brimtop Library Logo">
+                    <img src="/img/logo.png" alt="Blue Library Logo">
                 </div>
                 <h1>Bem vindo de volta!</h1>
-                <p>Login<br>Preencha os dados necessários para fazer login</p>
+                <p><br>Preencha os dados necessários para fazer login</p>
                 <form>
                     <div class="input-group">
-                        <label for="username">Email</label>
-                        <input type="text" id="username" placeholder="Enter Username">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="Insira seu e-mail">
                     </div>
                     <div class="input-group">
                         <label for="password">Senha</label>
-                        <input type="password" id="password" placeholder="Enter Password">
+                        <input type="password" id="password" placeholder="Insira sua senha">
                     </div>
                     <div class="options">
                         <label><input type="checkbox"> Lembrar-me</label>
@@ -34,10 +36,21 @@
                     <button type="submit">Login</button>
                 </form>
                 <div class="signup-link">
-                    <p>Cadastre-se<a href="#">Sign Up</a></p>
+                    <p>Não possui conta? <a href="#">Cadastre-se</a></p>
                 </div>
-                <div class="divider">Or</div>
-                <button class="google-signup">Faça seu login pelo Google</button>
+                <div class="divider-container">
+                    <p class="divider"></p>
+                    <p>Ou</p>
+                    <p class="divider"></p>
+
+                </div>
+                
+                <div>
+                    <button class="google-signup">
+                        <img src="/img/icons/google.png" alt="Google Icon">
+                        Faça seu login pelo Google
+                    </button>
+                </div>
             </div>
         </div>
     </div>
