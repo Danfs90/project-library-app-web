@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  height: 80vh;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+  flex: 1;
+  background: url('example-image.jpg') no-repeat center center/cover;
+}
+
+.right {
+  flex: 1;
+  background-color: #fff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  width: 80%;
+  max-width: 400px;
+}
+
+.logo img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #0056D2;
+}
+
+p {
+  color: #555;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.options label {
+  color: #555;
+}
+
+.options a {
+  color: #0056D2;
+  text-decoration: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0056D2;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-link {
+  margin-top: 20px;
+}
+
+.signup-link a {
+  color: #0056D2;
+  text-decoration: none;
+}
+
+.divider {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  line-height: 0.1em;
+  margin: 20px 0;
+}
+
+.divider span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.google-signup {
+  background-color: #fff;
+  color: #555;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-signup img {
+  margin-right: 10px;
+}
